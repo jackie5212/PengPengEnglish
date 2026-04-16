@@ -1,0 +1,36 @@
+name: pengpeng_english
+description: Flutter 端碰碰英语（与 Android 功能对齐，见 ../docs/android-feature-parity.md）
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  archive: ^3.6.1
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  package_info_plus: ^8.0.0
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ecdict.db
+    - assets/example_sentence.db
+    - assets/packs/
+    - assets/models/amy/
+    - assets/models/amy/en_US-amy-medium.onnx
+    - assets/models/amy/tokens.txt
+    - assets/models/amy/en_US-amy-medium.onnx.json
+    - assets/models/amy/espeak-ng-data/
