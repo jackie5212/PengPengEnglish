@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="鸣谢"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:text="Flite：&#10;https://github.com/festvox/flite&#10;卡耐基梅隆大学&#10;&#10;OWEN 教育&#10;https://github.com/x-englishwordnet/sqlite/tree/master&#10;WortNet&#10;普林斯顿大学&#10;Open English WordNet - John P. McCrae 教授&#10;爱尔兰国立大学&#10;&#10;ECDICT：&#10;https://github.com/skywind3000/ECDICT?tab=readme-ov-file"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textSize="16sp" />
+
+</LinearLayout>
