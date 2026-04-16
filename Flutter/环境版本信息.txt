@@ -1,0 +1,5 @@
+原版目录 D:\PengPengEnglish\Flutter：
+android/gradle/wrapper/gradle-wrapper.properties 是 gradle-8.14-all.zip
+android/settings.gradle.kts 里：
+AGP：8.11.1
+Kotlin：2.2.20
